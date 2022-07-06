@@ -160,6 +160,19 @@ body {
     text-align: center;
 }
 
+.subscribe-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.subscribe-para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
 .input-section {
     background-color: #FFF4D6;
     padding: 75px 190px;
