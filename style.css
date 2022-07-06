@@ -143,3 +143,32 @@ body {
     padding-right: 2px;
     margin-right: 5%;
 }
+
+#last {
+    margin-top: 130px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.orange-color {
+    color: #FF5959;
+}
+
+.footer-button {
+    text-decoration: none;
+}
+
+.footer-head {
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+}
+
+footer {
+    padding: 10px;
+}
