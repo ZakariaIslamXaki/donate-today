@@ -86,6 +86,10 @@ body {
 }
 
 .input-amount {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 765px;
     margin-bottom: 30px;
 }
 
@@ -95,4 +99,47 @@ body {
     border-radius: 5px;
     padding: 16px 12px;
     text-decoration: none;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.donate-programs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.mission-item {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.illustrations {
+    padding-top: 63px;
+}
+
+#food {
+    background-color: rgba(79, 157, 166, 0.1);
+    text-align: left;
+}
+
+#shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+    text-align: left;
+}
+
+#education {
+    background-color: rgba(255, 244, 214, 1);
+    text-align: left;
+}
+
+.para {
+    text-align: justify;
+    padding-right: 2px;
+    margin-right: 5%;
 }
