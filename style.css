@@ -16,7 +16,7 @@ body {
 
 .hero-text {
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
     color: white;
 }
 
@@ -39,4 +39,60 @@ body {
     background-color: #FF5959;
     border-radius: 5px;
     padding: 18px 21px;
+    text-decoration: none;
+}
+
+.donate-now {
+    text-align: center;
+}
+
+.donate-now-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-now-para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.donate-now-amount {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+}
+
+.amount {
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 44px 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: gray;
+}
+
+.special-amount {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 44px 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FF5959;
+}
+
+.input-amount {
+    margin-bottom: 30px;
+}
+
+.amount-button {
+    color: white;
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    text-decoration: none;
 }
