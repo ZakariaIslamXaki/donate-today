@@ -156,6 +156,30 @@ body {
     font-weight: bolder;
 }
 
+.subscribe {
+    text-align: center;
+}
+
+.input-section {
+    background-color: #FFF4D6;
+    padding: 75px 190px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.subscribe-input {
+    height: 48px;
+    width: 275px;
+}
+
+.subscribe-button {
+    color: white;
+    background-color: #FF5959;
+    padding: 14px 44px;
+    text-decoration: none;
+    height: 48px;
+}
+
 .orange-color {
     color: #FF5959;
 }
