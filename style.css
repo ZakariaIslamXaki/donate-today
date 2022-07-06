@@ -1,11 +1,9 @@
 body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
     margin: 0%;
     padding: 0%;
 }
 
-.hero-section {
+#hero-section {
     margin-top: 0%;
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -42,7 +40,7 @@ body {
     text-decoration: none;
 }
 
-.donate-now {
+#donate-now {
     text-align: center;
 }
 
@@ -101,8 +99,9 @@ body {
     text-decoration: none;
 }
 
-.donate-plan {
+#donate-plan {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .donate-programs {
@@ -111,7 +110,7 @@ body {
     justify-content: center;
 }
 
-.mission-item {
+.donate-item {
     width: 30%;
     margin-left: 5%;
     margin-right: 5%;
@@ -144,19 +143,43 @@ body {
     margin-right: 5%;
 }
 
-#last {
-    margin-top: 130px;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-bottom: 0%;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-weight: bolder;
+.half-width {
+    width: 50%;
+    padding-left: 10%;
 }
 
-.subscribe {
+.flexible-container {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.aboutus-para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.aboutus-button {
+    color: white;
+    background-color: #FF5959;
+    padding: 14px 44px;
+    text-decoration: none;
+    height: 48px;
+    border-radius: 5px;
+}
+
+#subscribe {
     text-align: center;
 }
 
@@ -181,7 +204,7 @@ body {
 }
 
 .subscribe-input {
-    height: 48px;
+    height: 40px;
     width: 275px;
 }
 
@@ -193,6 +216,18 @@ body {
     height: 48px;
 }
 
+#last {
+    margin-top: 130px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
 .orange-color {
     color: #FF5959;
 }
@@ -202,8 +237,9 @@ body {
 }
 
 .footer-head {
-    font-family: "Times New Roman", Times, serif;
-    font-style: oblique;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
 }
 
 footer {
